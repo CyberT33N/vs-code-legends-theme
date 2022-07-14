@@ -30,6 +30,7 @@
     transition: opacity 1s !important;
     opacity: 1;
     animation: tooltippulse 4s infinite linear;
+    pointer-events: auto;
 }
 
 .monaco-editor .monaco-hover.hidden {

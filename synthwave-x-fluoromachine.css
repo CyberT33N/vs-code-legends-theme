@@ -193,9 +193,15 @@ canvas {
     color: #241b2f; 
 }
 
+/*
+.monaco-inputbox.idle {
+  background-color: #3e3e3e !important;
+}*/
+
 .monaco-inputbox>.wrapper>textarea.input::selection {
   background-color:rgba(255,255,255,0.3);
 }
+
 
 .monaco-editor .line-numbers {
   color: #8a2dc066;
