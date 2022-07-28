@@ -1,4 +1,6 @@
 {
+    "files.useExperimentalFileWatcher" : true,
+
     "workbench.colorTheme": "Synthwave x Fluoromachine & epic animations",
     "workbench.iconTheme": "material-icon-theme",
 
@@ -11,7 +13,8 @@
         
         "terminal.background":"#131212",
         "terminal.foreground":"#dddad6",
-
+        "terminal.selectionBackground": "#fff",
+        "terminal.selectionForeground": "#fff",
         "terminalCursor.background":"#D0D0D0",
         "terminalCursor.foreground":"#fbe201",
 
@@ -56,6 +59,7 @@
           "background-repeat": "no-repeat",
           "opacity": 0.1
       },
+      
     "background.customImages": [
           "https://preview.redd.it/0bb6dqsiab451.gif?s=b0c65596a54a30708da26669da6e79abf3be1680",
           "https://media2.giphy.com/media/gQvJdypeqrEyhZ9lzn/giphy.gif?cid=790b76118cd8aa4ef3ff335d2f602093346b6391cf3bdbae&rid=giphy.gif"
@@ -232,6 +236,13 @@
                 }
             },
             {
+                "scope": "entity.name.function.shell",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#9dff00"
+                }
+            },
+            {
                 "scope": "support.function",
                 "settings": {
                     "fontStyle": "",
@@ -295,6 +306,13 @@
                 }
             },
             {
+                "scope": "constant.numeric",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ac46ff"
+                }
+            },
+            {
                 "scope": "string.quoted.double.js",
                 "settings": {
                     "fontStyle": "italic bold",
@@ -331,6 +349,34 @@
             },
             {
                 "scope": "constant.language.boolean.false.js",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                }
+            },
+            {
+                "scope": "meta.scope.subshell.shell",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fff"
+                }
+            },
+            {
+                "scope": "keyword.operator.list.shell",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                }
+            },
+            {
+                "scope": "keyword.operator.logical.shell",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                }
+            },
+            {
+                "scope": "keyword.control.shell",
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#fa115f"
@@ -636,5 +682,6 @@
     "vscode-pets.position": "explorer",
     "vscode-pets.petColor": "yellow",
     "vscode-pets.petSize": "medium",
-    "vscode-pets.petType": "totoro"
+    "vscode-pets.petType": "snake",
+    "explorer.confirmDelete": false
 }

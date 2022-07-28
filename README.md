@@ -1,26 +1,3 @@
-This is a edit of the theme from below. Insert the settings.json to:
-- ~/.config/Code/User/settings.json 
-
-
-
-
-
-
-
-
-
-
-
-
-<br>
-<br>
-____________________________________________________________
-____________________________________________________________
-<br>
-<br>
-
-
-
 <h1 align="center" style="color:#8c1eff">  Synthwave <em style="color:#fff" > x</em> Fluoromachine & epic animations <br/><br/>
 
 

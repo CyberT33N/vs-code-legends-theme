@@ -118,7 +118,7 @@
     "terminal.ansiBrightGreen": "#cfa526",
     "terminal.ansiBrightMagenta": "#61e2ff",
     "terminal.ansiBrightRed": "#cfa526",
-    "terminal.ansiBrightYellow": "#f92aad",
+    "terminal.ansiBrightYellow": "#fa115f",
     "terminal.ansiCyan": "#03edf9",
     "terminal.ansiGreen": "#cfa526",
     "terminal.ansiMagenta": "#61e2ff",
@@ -195,7 +195,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#f92aad"
+        "foreground": "#fa115f"
       }
     },
     {
@@ -216,7 +216,7 @@
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#cfa526"
+        "foreground": "#ac46ff"
       }
     },
     {
@@ -260,14 +260,14 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#f92aad"
+        "foreground": "#fa115f"
       }
     },
     {
       "name": "Tag attribute HTML",
       "scope": "entity.other.attribute-name.html",
       "settings": {
-        "foreground": "#f92aad",
+        "foreground": "#fa115f",
         "fontStyle": "italic"
       }
     },
@@ -312,21 +312,21 @@
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "#f92aad"
+        "foreground": "#fa115f"
       }
     },
     {
       "name": "Control keyword",
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#f92aad"
+        "foreground": "#fa115f"
       }
     },
     {
       "name": "Operator",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#f92aad"
+        "foreground": "#fa115f"
       }
     },
     {
@@ -337,7 +337,7 @@
         "keyword.operator.logical"
       ],
       "settings": {
-        "foreground": "#f92aad"
+        "foreground": "#fa115f"
       }
     },
     {
@@ -389,7 +389,7 @@
       "name": "Embedded puncuation",
       "scope": "punctuation.section.embedded",
       "settings": {
-        "foreground": "#f92aad"
+        "foreground": "#fa115f"
       }
     },
     {
@@ -541,7 +541,7 @@
       "name": "C++ operators",
       "scope": "source.cpp keyword.operator",
       "settings": {
-        "foreground": "#f92aad"
+        "foreground": "#fa115f"
       }
     },
     {
@@ -602,7 +602,7 @@
         "support.type.property-name.json.arm-template"
       ],
       "settings": {
-        "foreground": "#f92aad"
+        "foreground": "#fa115f"
       }
     }, 
     {
