@@ -1,7 +1,5 @@
 {
-    "files.useExperimentalFileWatcher" : true,
-
-    "workbench.colorTheme": "Synthwave x Fluoromachine & epic animations",
+    "files.useExperimentalFileWatcher": true,
     "workbench.iconTheme": "material-icon-theme",
 
     "workbench.colorCustomizations": {
@@ -66,8 +64,8 @@
       ],
 
     "vscode_custom_css.imports": [
-        "file:////home/dennis/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/synthwave-x-fluoromachine.itermcolors",
-        "file:////home/dennis/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/epic-80s-transitions.css"
+        "file:////home/t33n/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/synthwave-x-fluoromachine.itermcolors",
+        "file:////home/t33n/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/epic-80s-transitions.css"
     ],
     "files.autoSave": "afterDelay",
     "editor.tokenColorCustomizations": {
@@ -173,6 +171,13 @@
             },
             {
                 "scope": "keyword.control.trycatch.js",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f"
+                }
+            },
+            {
+                "scope": "keyword.control.import.js",
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#fa115f"
@@ -683,5 +688,6 @@
     "vscode-pets.petColor": "yellow",
     "vscode-pets.petSize": "medium",
     "vscode-pets.petType": "snake",
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Synthwave x Fluoromachine & epic animations"
 }
