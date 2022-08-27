@@ -689,5 +689,6 @@
     "vscode-pets.petSize": "medium",
     "vscode-pets.petType": "snake",
     "explorer.confirmDelete": false,
-    "workbench.colorTheme": "Synthwave x Fluoromachine & epic animations"
+    "workbench.colorTheme": "Synthwave x Fluoromachine & epic animations",
+    "editor.experimental.stickyScroll.enabled": true
 }
