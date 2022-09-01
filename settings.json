@@ -7,6 +7,8 @@
         
         "editor.selectionBackground": "#135564",
         "editor.selectionHighlightBackground": "#135564",
+        
+        "editorLineNumber.foreground": "#ffffff40",
 
         "scrollbarSlider.background": "#ffca28c9",
         "scrollbarSlider.hoverBackground": "#ffca28",
