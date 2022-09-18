@@ -7,6 +7,9 @@
         
         "editor.selectionBackground": "#135564",
         "editor.selectionHighlightBackground": "#135564",
+        "editor.findMatchBackground": "#135564",
+        "editor.findMatchHighlightBackground": "#135564",
+        
         
         "editorLineNumber.foreground": "#ffffff40",
 
