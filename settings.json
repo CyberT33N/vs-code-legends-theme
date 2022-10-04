@@ -685,6 +685,7 @@
     "debug.allowBreakpointsEverywhere": true,
     "debug.console.fontFamily": "'Fira Code', 'monospace', monospace",
     "terminal.integrated.scrollback": 50000,
+    "terminal.integrated.windowsEnableConpty": false,
     "telemetry.telemetryLevel": "off",
     "eslint.alwaysShowStatus": true,
     "eslint.useESLintClass": true,
