@@ -702,5 +702,7 @@
     "workbench.colorTheme": "Synthwave x Fluoromachine & epic animations",
     "editor.experimental.stickyScroll.enabled": true,
     "js/ts.implicitProjectConfig.experimentalDecorators": true,
-    "search.useReplacePreview": false
+    "search.useReplacePreview": false,
+    "typescript.suggest.autoImports": false,
+    "javascript.suggest.autoImports": false
 }
