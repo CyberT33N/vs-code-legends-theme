@@ -2,7 +2,17 @@
     "files.useExperimentalFileWatcher": true,
     "workbench.iconTheme": "material-icon-theme",
 
+    "editor.inlayHints.fontFamily": "Roboto",
+    "editor.inlayHints.fontSize": 14,
+    
     "workbench.colorCustomizations": {
+        "editorInlayHint.background": "#00001CCC",
+        "editorInlayHint.foreground": "#99FFBBCC",
+        "editorInlayHint.parameterBackground": "#00000000",
+        "editorInlayHint.parameterForeground": "#f8f4f44f",
+        "editorInlayHint.typeBackground": "#08000088",
+        "editorInlayHint.typeForeground": "#DDEEFF88",
+        
         "editor.background": "#1a1a1a",
         
         "editor.selectionBackground": "#135564",
