@@ -112,7 +112,7 @@
                 }
             },
             {
-                "scope": "meta.object-literal.key.js",
+                "scope": "meta.object-literal.key.ts",
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#fff"
