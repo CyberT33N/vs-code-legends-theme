@@ -93,7 +93,13 @@
     "editor.tokenColorCustomizations": {
         "variables": "#ffffff",
         "textMateRules": [
-
+            {
+                "scope": "keyword.operator.optional.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ff005583"
+                }
+            },
             {
                 "scope": "entity.name.function.ts",
                 "settings": {
