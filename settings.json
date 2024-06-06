@@ -105,6 +105,20 @@
                 }
             },
             {
+                "scope": "entity.name.function.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#9dff00"
+                }
+            },
+            {
+                "scope": "meta.object-literal.key.js",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fff"
+                }
+            },
+            {
                 "scope": "meta.object-literal.key.js",
                 "settings": {
                     "fontStyle": "",
