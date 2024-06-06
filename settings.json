@@ -93,20 +93,23 @@
     "editor.tokenColorCustomizations": {
         "variables": "#ffffff",
         "textMateRules": [
+
             {
-                "scope": "variable.object.property.ts",
+                "scope": "entity.name.function.ts",
                 "settings": {
                     "fontStyle": "",
-                    "foreground": "#ffffff7e"
+                    "foreground": "#9dff00"
                 }
             },
+
             {
-                "scope": "variable.parameter.ts",
+                "scope": "meta.object-literal.key.ts",
                 "settings": {
                     "fontStyle": "",
-                    "foreground": "#ff990081"
+                    "foreground": "#fff"
                 }
             },
+
             {
                 "scope": "support.type.primitive.ts",
                 "settings": {
@@ -140,6 +143,23 @@
 
 
 
+            {
+                "scope": "variable.object.property.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ffffff7e"
+                }
+            },
+            {
+                "scope": "variable.parameter.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ff9900"
+                }
+            },
+     
+
+
 
             {
                 "scope": "storage.type.js",
@@ -157,13 +177,6 @@
             },
             {
                 "scope": "meta.object-literal.key.js",
-                "settings": {
-                    "fontStyle": "",
-                    "foreground": "#fff"
-                }
-            },
-            {
-                "scope": "meta.object-literal.key.ts",
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#fff"
@@ -312,13 +325,6 @@
             },
             {
                 "scope": "entity.name.function.js",
-                "settings": {
-                    "fontStyle": "",
-                    "foreground": "#9dff00"
-                }
-            },
-            {
-                "scope": "entity.name.function.ts",
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#9dff00"
