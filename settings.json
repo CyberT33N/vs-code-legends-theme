@@ -1,6 +1,8 @@
 {
+    "CodeGPT.organizationId": "org-rVgQbiD6t8ezNknGEvBVP2hX",
+
     "files.useExperimentalFileWatcher": true,
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "symbols",
 
     "editor.inlayHints.fontFamily": "Roboto",
     "editor.inlayHints.fontSize": 14,
@@ -84,13 +86,14 @@
 
     "vscode_custom_css.imports": [
         "file:////home/t33n/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/synthwave-x-fluoromachine.itermcolors",
-        "file:////home/t33n/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/epic-80s-transitions.css"
+        "file:////home/t33n/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/epic-80s-transitions.css",
+        "file:///home/t33n/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
     ],
     "files.autoSave": "afterDelay",
     "editor.tokenColorCustomizations": {
         "variables": "#ffffff",
         "textMateRules": [
-{
+            {
                 "scope": "variable.object.property.ts",
                 "settings": {
                     "fontStyle": "",
@@ -133,7 +136,11 @@
                     "foreground": "#FA115F"
                 }
             },
-            
+
+
+
+
+
             {
                 "scope": "storage.type.js",
                 "settings": {
@@ -149,21 +156,14 @@
                 }
             },
             {
-                "scope": "entity.name.function.ts",
-                "settings": {
-                    "fontStyle": "",
-                    "foreground": "#9dff00"
-                }
-            },
-            {
-                "scope": "meta.object-literal.key.ts",
+                "scope": "meta.object-literal.key.js",
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#fff"
                 }
             },
             {
-                "scope": "meta.object-literal.key.js",
+                "scope": "meta.object-literal.key.ts",
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#fff"
@@ -312,6 +312,13 @@
             },
             {
                 "scope": "entity.name.function.js",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#9dff00"
+                }
+            },
+            {
+                "scope": "entity.name.function.ts",
                 "settings": {
                     "fontStyle": "",
                     "foreground": "#9dff00"
@@ -742,7 +749,7 @@
     "editor.mouseWheelZoom": true,
     "editor.smoothScrolling": true,
     "editor.cursorBlinking": "smooth",
-    "editor.cursorSmoothCaretAnimation": false,
+    "editor.cursorSmoothCaretAnimation": "off",
     "editor.cursorStyle": "line-thin",
     "editor.fontLigatures": true,
     "editor.fontWeight": "bold",
@@ -768,9 +775,17 @@
     "vscode-pets.petType": "snake",
     "explorer.confirmDelete": false,
     "workbench.colorTheme": "Synthwave x Fluoromachine & epic animations",
-    "editor.experimental.stickyScroll.enabled": true,
     "js/ts.implicitProjectConfig.experimentalDecorators": true,
     "search.useReplacePreview": false,
     "typescript.suggest.autoImports": false,
-    "javascript.suggest.autoImports": false
+    "javascript.suggest.autoImports": false,
+    "editor.stickyScroll.enabled": true,
+    "glassit.alpha": 220,
+    "workbench.productIconTheme": "fluent-icons",
+    "symbols.hidesExplorerArrows": false,
+    "eslint.format.enable": true,
+    "eslint.rules.customizations": [
+    
+    ],
+    "github.copilot.editor.enableAutoCompletions": true
 }
