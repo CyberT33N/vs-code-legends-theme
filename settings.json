@@ -94,6 +94,14 @@
         "variables": "#ffffff",
         "textMateRules": [
             {
+                "scope": "entity.name.type.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fffb0077"
+                }
+            },
+
+            {
                 "scope": "keyword.operator.optional.ts",
                 "settings": {
                     "fontStyle": "",
