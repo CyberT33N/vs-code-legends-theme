@@ -90,6 +90,50 @@
     "editor.tokenColorCustomizations": {
         "variables": "#ffffff",
         "textMateRules": [
+{
+                "scope": "variable.object.property.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ffffff7e"
+                }
+            },
+            {
+                "scope": "variable.parameter.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ff990081"
+                }
+            },
+            {
+                "scope": "support.type.primitive.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fffb0077"
+                }
+            },
+            {
+                "scope": "meta.type.annotation.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f49"
+
+                }
+            },
+            {
+                "scope": "keyword.operator.type.annotation.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#fa115f49"
+                }
+            },
+            {
+                "scope": "constant.language.undefined.ts",
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#FA115F"
+                }
+            },
+            
             {
                 "scope": "storage.type.js",
                 "settings": {
