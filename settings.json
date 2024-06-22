@@ -6,6 +6,11 @@
 
     "editor.inlayHints.fontFamily": "Roboto",
     "editor.inlayHints.fontSize": 14,
+
+     "editor.codeActionsOnSave": {
+       "source.fixAll.eslint": true
+     } 
+    
     
     "workbench.colorCustomizations": {
         "editorInlayHint.background": "#00001CCC",
